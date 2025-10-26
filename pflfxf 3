@@ -1,0 +1,11 @@
+e = int(input())
+w = 1
+while e != 0:
+    if e < 0:
+        e = int(input())
+        continue
+    elif e>0:
+        w = w * e
+        print(e)
+    e = int(input())
+print(w)
